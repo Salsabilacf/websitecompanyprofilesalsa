@@ -1,4 +1,5 @@
 <?php include("inc_header.php")?>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote.min.css" rel="stylesheet">
 <?php
 $judul        ="";
 $kutipan      ="";
@@ -62,7 +63,7 @@ if($sukses){
         <div class="mb-3">
         <label for="isi" class="form-label">Isi</label>
         <div class="col-sm-10">
-           <textarea name="isi" class="form-control" id="summernode"><?php echo $isi?></textarea>
+           <textarea name="isi" class="form-control" id="summernote"><?php echo $isi?></textarea>
         </div>
     </div>
     <div class="mb-3">
